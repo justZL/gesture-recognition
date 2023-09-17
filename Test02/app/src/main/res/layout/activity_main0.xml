@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#8696FE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/first_line"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="#11009E"/>
+
+        <View
+            android:id="@+id/second_line"
+            android:layout_width="20dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/first_line"
+            android:layout_marginLeft="8dp"
+            android:background="#B114FF"/>
+
+        <View
+            android:id="@+id/third_line"
+            android:layout_width="20dp"
+            android:layout_height="250dp"
+            android:layout_toRightOf="@+id/second_line"
+            android:layout_marginLeft="8dp"
+            android:background="#17A2FF"/>
+
+        <View
+            android:id="@+id/fourth_line"
+            android:layout_width="20dp"
+            android:layout_height="200dp"
+            android:layout_toRightOf="@+id/third_line"
+            android:layout_marginLeft="8dp"
+            android:background="#4942E4"/>
+
+        <View
+            android:id="@+id/fifth_line"
+            android:layout_width="20dp"
+            android:layout_height="180dp"
+            android:layout_toRightOf="@+id/fourth_line"
+            android:layout_marginLeft="8dp"
+            android:background="#005DFF"/>
+
+        <View
+            android:id="@+id/six_line"
+            android:layout_width="20dp"
+            android:layout_height="150dp"
+            android:layout_toRightOf="@+id/fifth_line"
+            android:layout_marginLeft="8dp"
+            android:background="#C2C2C2"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="trAIn"
+            android:fontFamily="@font/comic"
+            android:textColor="@color/white"
+            android:textSize="70sp"
+            android:textStyle="italic"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tagLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:text="让你更懂你"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
