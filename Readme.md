@@ -2,7 +2,7 @@ R# readme
 
 项目使用指南
 
-本人项目为前后端开发项目，只有前端或只有后端均不能实现项目功能，体态识别部分基于https://github.com/kennymckormick/pyskl实现，Test02是androidstudio工程文件，mysite是django工程文件
+本人项目为前后端开发项目，只有前端或只有后端均不能实现项目功能，体态识别部分基于 https://github.com/kennymckormick/pyskl 实现，Test02是androidstudio工程文件，mysite是django工程文件
 
 ## 开发环境
 
